@@ -3,5 +3,5 @@
 // let count = 8
 // console.log(count)
 
-let myAge = 21
-console.log(myAge)
+// let myAge = 21
+// console.log(myAge)
