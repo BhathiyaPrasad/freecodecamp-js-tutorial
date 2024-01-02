@@ -11,8 +11,11 @@
 <body>
  <button>Show Quantity</button>
  <button onclick="cartQuantity = cartQuantity + 1;
- console.log('Cart Quantity:${cartQuantity}');">Add To Cart</button>
- <button>+2</button>
+ console.log(`Cart Quantity:${cartQuantity}`);">Add To Cart</button>
+ <button
+ onclick="cartQuantity = cartQuantity + 2;
+ console.log(`Cart Quantity:${cartQuantity}`);"
+ >+2</button>
  <button>+3</button>
  <button>Reset Cart</button>
 
