@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart quantity</title>
-</head>
+  </head>
 
+<<<<<<< HEAD
 <body>
  <button>Show Quantity</button>
  <button onclick="
@@ -21,8 +20,38 @@
  ">+2</button>
  <button>+3</button>
  <button>Reset Cart</button>
+=======
+  <body>
+    <button onclick="console.log(`Available Qty : ${cartQuantity}`)">
+      Show Quantity
+    </button>
+    <button
+      onclick="cartQuantity = cartQuantity + 1;
+ console.log(`Cart Quantity:${cartQuantity}`);"
+    >
+      Add To Cart
+    </button>
+    <button
+      onclick="cartQuantity = cartQuantity + 2;
+ console.log(`Cart Quantity:${cartQuantity}`);"
+    >
+      +2
+    </button>
+    <button
+      onclick="cartQuantity = cartQuantity + 3;
+ console.log(`Cart Quantity:${cartQuantity}`);
+ console"
+    >
+      +3
+    </button>
+    <button
+      onclick="cartQuantity = 0;
+ console.log(`Cart Quantity: ${cartQuantity}`)"
+    >
+      Reset Cart
+    </button>
+>>>>>>> 24e13fb32ed4762a8c8d7f6917cd35c7416fa947
 
-    <script src="variables.js">
-
-    </script>
-</body>
+    <script src="variables.js"></script>
+  </body>
+</html>
