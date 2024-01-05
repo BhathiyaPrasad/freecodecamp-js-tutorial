@@ -10,19 +10,40 @@
     Rock Paper Scissors  
 </p>
 <button onclick="
-if (randomNumber > 0 && randomNumber < 1/3)
-console.log('Rock');
-else if (randomNumber >= 1/3 && randomNumber < 2/3)
-console.log('Paper');
-else 
+const randomNumber = Math.random();
+if (randomNumber >= 0 && randomNumber < 1/3){
+console.log('Rock');}
+else if (randomNumber >= 1/3 && randomNumber < 2/3){
+console.log('Paper');}
+else { 
 console.log('Scissor');
-
+}
 ">Rock</button>
+<button onclick="const randomNumber1 = Math.random();
+if (randomNumber1 >= 0 && randomNumber1 < 1/3){
+console.log('Rock');}
+else if (randomNumber1 >= 1/3 && randomNumber1 < 2/3){
+console.log('Paper');}
+else { 
+console.log('Scissor');
+}
+">Paper</button>
+<button onclick="
+const randomNumber2 = Math.random();
+if (randomNumber2 >= 0 && randomNumber2 < 1/3){
+console.log('Rock');}
+else if (randomNumber2 >= 1/3 && randomNumber2 < 2/3){
+console.log('Paper');}
+else { 
+console.log('Scissor');
+}">
+Scissor
+</button>
 
 
 
 <script>
-   const randomNumber = Math.random();
+   
 
 </script>
 </body>
