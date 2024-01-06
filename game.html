@@ -4,24 +4,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Rock Paper Scissor</title>
 </head>
-<p>Rock Paper Scissor</p>
+<body>
+<p>
+    Rock Paper Scissors  
+</p>
 <button onclick="
 const randomNumber = Math.random();
-if(randomNumber => 0 && randomNumber < 0.1){
-console.log('scissor');
+if (randomNumber >= 0 && randomNumber < 1/3){
+console.log('Rock');}
+else if (randomNumber >= 1/3 && randomNumber < 2/3){
+console.log('Paper');}
+else { 
+console.log('Scissor');
 }
-else{
-    console.log('rock');
-}">Rock</button>
-<button>Paper</button>
-<button>Scissor</button>
+">Rock</button>
+<button onclick="const randomNumber1 = Math.random();
+if (randomNumber1 >= 0 && randomNumber1 < 1/3){
+console.log('Rock');}
+else if (randomNumber1 >= 1/3 && randomNumber1 < 2/3){
+console.log('Paper');}
+else { 
+console.log('Scissor');
+}
+">Paper</button>
+<button onclick="
+const randomNumber2 = Math.random();
+if (randomNumber2 >= 0 && randomNumber2 < 1/3){
+console.log('Rock');}
+else if (randomNumber2 >= 1/3 && randomNumber2 < 2/3){
+console.log('Paper');}
+else { 
+console.log('Scissor');
+}">
+Scissor
+</button>
 
-<script>
-  
-
-</script>
 </body>
 
 </html>
