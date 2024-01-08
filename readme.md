@@ -9,5 +9,5 @@ Rock Paper scissors game
  output - outputn the values for user inputs 
      
      Logic - function   1. Rock beats scissor
-                        2. scissor beat paper
-                        3. paper beat rock   
+                        2. scissor beats paper
+                        3. paper beats rock   
