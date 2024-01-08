@@ -22,6 +22,15 @@ else if (randomNumber >= 1/3 && randomNumber < 2/3){
 else { 
  computerMove = 'Scissor';}
 console.log(computerMove);
+let result = '';
+if (computerMove === 'rock'){
+    result = 'Tie'
+}else if (computerMove === 'Paper'){
+    result = 'Paper'
+}else{
+    result = 'Scissor'
+}
+console.log(result);
 ">Rock</button>
     <button onclick="const randomNumber1 = Math.random();
 if (randomNumber1 >= 0 && randomNumber1 < 1/3){
@@ -39,11 +48,7 @@ console.log('Rock');}
 else if (randomNumber2 >= 1/3 && randomNumber2 < 2/3){
 console.log('Paper');}
 else { 
-console.log('Scissor');
-}">
-        Scissor
-    </button>
-
+console.log('Scissor');}">Scissor</button>
 </body>
 
 </html>
