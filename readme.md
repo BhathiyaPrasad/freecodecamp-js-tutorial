@@ -12,5 +12,6 @@ Rock Paper scissors game
                         2. scissor beats paper
                         3. paper beats rock   
 Now Its time Create A new Varuable to identify the inputs of computer Side because This game needed two persons 
+Create a variable called computerMove 
 
-                   Create a variable called computerMove
+                             Const computerMove = ;
