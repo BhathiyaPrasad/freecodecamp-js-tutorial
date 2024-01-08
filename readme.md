@@ -15,6 +15,8 @@ Now Its time Create A new Varuable to identify the inputs of computer Side becau
 Create a variable called computerMove 
 
                              Const computerMove ='';
+                             Const computerMove1 = '';
+                             Const computerMove2 = '';
                              
 Then Created a Variable to store and output the final results
                             
