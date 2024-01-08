@@ -24,5 +24,5 @@ Then Created a Variable to store and output the final results
                             let result1 = '';
                             let result2 = ''; 
                             
-Created following variables in empthy to stores data from algorhytm
+Created following variables in empthy to stores data from Algorhythm
   
