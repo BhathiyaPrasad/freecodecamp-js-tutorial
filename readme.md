@@ -1,4 +1,4 @@
-This project is from the tutorial for javascript conducted via freecodecamp.org 
+orial for javascript conducted via freecodecamp.org 
 
 Here Is the Link "https://youtu.be/jS4aFq5-91M?si=tfNWE87uOtxXWGeb"
 
@@ -11,3 +11,4 @@ Rock Paper scissors game
      Logic - function   1. Rock beats scissor
                         2. scissor beats paper
                         3. paper beats rock   
+Now Its time Create A new Varuable to identify the inputs of computer Side because This game needed two persons 
