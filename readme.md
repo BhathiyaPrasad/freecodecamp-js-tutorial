@@ -22,4 +22,7 @@ Then Created a Variable to store and output the final results
                             
                             let result = '';
                             let result1 = '';
-                            let result2 = '';
+                            let result2 = ''; 
+                            
+Created following variables in empthy to stores data from algorhytm
+  
