@@ -14,4 +14,10 @@ Rock Paper scissors game
 Now Its time Create A new Varuable to identify the inputs of computer Side because This game needed two persons 
 Create a variable called computerMove 
 
-                             Const computerMove = ;
+                             Const computerMove ='';
+                             
+Then Created a Variable to store and output the final results
+                            
+                            let result = '';
+                            let result1 = '';
+                            let result2 = '';
