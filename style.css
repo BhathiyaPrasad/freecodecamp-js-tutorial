@@ -1,6 +1,32 @@
+
 button
 {
     background-color: rgb(175, 175, 209);
     color: white;
     border-radius: 250px;
+
+body{
+    background-color: aqua;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+button{
+    width: 100px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 158, 110);
+    border-radius: 20px;
+    border-color: rgb(36, 160, 160);
+    text-align: center;
+}
+head{
+    align-items: center;
+    align-self: center;
+
+}
+
+.classONE{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
 }
