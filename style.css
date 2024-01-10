@@ -1,6 +1,10 @@
 button
 {
-    background-color: rgb(175, 175, 209);
+    background-color: rgb(126, 126, 221);
     color: white;
-    border-radius: 250px;
+    border-radius: 150px;
+    align-items: center;
+}
+body {
+    background-color: aqua;
 }
