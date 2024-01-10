@@ -13,7 +13,7 @@
     
     
         <h1 class="classONE">Rock Paper Scissor</h1>
-
+<div class="buttonElements">
     <button onclick="
 
 const randomNumber = Math.random();
@@ -42,6 +42,8 @@ if (computerMove === 'Rock'){
       onclick="const randomNumber1 = Math.random();
 
 console.log(result);
+alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result  );
+
 ">Rock</button>
     <button onclick="const randomNumber1 = Math.random();
     let computerMove1 = '';
@@ -70,6 +72,7 @@ if (computerMove1 === 'Rock'){
     result1 = 'Failed'
 }
 console.log(result1);
+alert('You Picked Paper '+' Computer Picked'+ ' ' + computerMove1 +' '+ result1  )
 ">Paper</button>
     <button onclick="
 
@@ -98,9 +101,10 @@ if (computerMove2 === 'Rock'){
 }else{
     result2 = 'Tie'}
     console.log(result2)
+    alert('You Picked Scissor'+' Computer Picked'+ ' ' + computerMove2 +' '+ result2  )
 ">Scissor</button>
 
-
+</div>
 </body>
 
 </html>
