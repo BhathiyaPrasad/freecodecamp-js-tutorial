@@ -15,23 +15,23 @@
             const randomNumber = Math.random();
             let computerMove = '';
             if (randomNumber >= 0 && randomNumber < 1/3) {
-                computerMove ='Rock';
+                computerMove ='ROCK';
             } else if (randomNumber >= 1/3 && randomNumber < 2/3) {
-                computerMove = 'Paper';
+                computerMove = 'PAPER';
             } else { 
-                computerMove = 'Scissor';
+                computerMove = 'SCISSOR';
             }
 
             let result = '';
-            if (computerMove === 'Rock') {
-                result = 'Tie';
-            } else if (computerMove === 'Paper') {
-                result = 'Failed';
+            if (computerMove === 'ROCK') {
+                result = 'TIE';
+            } else if (computerMove === 'PAPER') {
+                result = 'LOOSE';
             } else {
-                result = 'Pass';
+                result = 'WIN';
             }
             console.log(result);
-            alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );"
+            alert('YOU PICKED ROCK'+' COMPUTER PICKED'+ ' ' + computerMove +' '+ result );"
             style="background-image: url(rock.jpg);
             background-position: center;
             background-size: cover;
@@ -43,23 +43,23 @@
             let computerMove1 = '';
 
             if (randomNumber1 >= 0 && randomNumber1 < 1/3) {
-                computerMove1 = 'Rock';
+                computerMove1 = 'ROCK';
             } else if (randomNumber1 >= 1/3 && randomNumber1 < 2/3) {
-                computerMove1 = 'Paper';
+                computerMove1 = 'PAPER';
             } else { 
-                computerMove1 = 'Scissor';
+                computerMove1 = 'SCISSOR';
             }
 
             let result1 = '';
-            if (computerMove1 === 'Rock') {
-                result1 = 'Pass';
-            } else if (computerMove1 === 'Paper') {
-                result1 = 'Tie';
+            if (computerMove1 === 'ROCK') {
+                result1 = 'WIN';
+            } else if (computerMove1 === 'PAPER') {
+                result1 = 'TIE';
             } else {
-                result1 = 'Failed';
+                result1 = 'LOOSE';
             }
             console.log(result1);
-            alert('You Picked Paper '+' Computer Picked'+ ' ' + computerMove1 +' '+ result1 );" 
+            alert('YOU PICKED PAPER '+' COMPUTER PICKED'+ ' ' + computerMove1 +' '+ result1 );" 
             style="background-image: url(paper.jpg);
             background-position: center;
             background-size: cover;
@@ -70,23 +70,23 @@
             const randomNumber2 = Math.random();
             let computerMove2 = '';
             if (randomNumber2 >= 0 && randomNumber2 < 1/3) {
-                computerMove2 = 'Rock';
+                computerMove2 = 'ROCK';
             } else if (randomNumber2 >= 1/3 && randomNumber2 < 2/3) {
-                computerMove2 = 'Paper';
+                computerMove2 = 'PAPER';
             } else { 
-                computerMove2 = 'Scissor';
+                computerMove2 = 'SCISSOR';
             }
 
             let result2 = '';
-            if (computerMove2 === 'Rock') {
-                result2 = 'Failed';
-            } else if (computerMove2 === 'Paper') {
-                result2 = 'Pass';
+            if (computerMove2 === 'ROCK') {
+                result2 = 'LOOSE';
+            } else if (computerMove2 === 'PAPER') {
+                result2 = 'WIN';
             } else {
-                result2 = 'Tie';
+                result2 = 'TIE';
             }
             console.log(result2);
-            alert('You Picked Scissor'+' Computer Picked'+ ' ' + computerMove2 +' '+ result2 );" 
+            alert('YOU PICKED SCISSOR'+' COMPUTER PICKED'+ ' ' + computerMove2 +' '+ result2 );" 
             style="background-image: url(scissors.jpg);
             background-position: center;
             background-size: cover;
