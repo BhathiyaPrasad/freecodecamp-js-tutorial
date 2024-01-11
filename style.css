@@ -10,11 +10,11 @@ body{
 }
 button{
     width: 100px;
-    height: 100px;
+    height: 110px;
     color:  rgb(208, 219, 228);
     background-color: rgb(76, 77, 75);
-    border-radius: 15px;
-    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color: rgb(26, 19, 19);
     text-align: left;
    
 }
