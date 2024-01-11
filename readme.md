@@ -25,4 +25,10 @@ Then Created a Variable to store and output the final results
                             let result2 = ''; 
                             
 Created following variables in empthy to stores data from Algorhythm
-  
+
+
+Then Instead of using Console.log to get much more user experience the output method change to Alert Window to Display User's and Computer's Input and The final Results
+
+                            alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );
+
+                              
