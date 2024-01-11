@@ -9,7 +9,7 @@
 </head>
 
 <body background="background.jpg">
-    <h1 class="classONE">PICK YOUR CHOICE</h1>
+ <!-- //   <h1 class="classONE">PICK YOUR CHOICE</h1> -->
     <div class="buttonElements">
         <button onclick="
             const randomNumber = Math.random();
@@ -32,7 +32,10 @@
             }
             console.log(result);
             alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );
-        " > Rock
+        " style="background-image: url(rock.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;" > Rock
        <!-- <img src="rock.jpg"  width="100px" height="35px" class="rockImage">  -->
             
         </button>

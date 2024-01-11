@@ -10,12 +10,13 @@ body{
 }
 button{
     width: 100px;
-    height: 35px;
+    height: 100px;
     color:  rgb(208, 219, 228);
     background-color: rgb(76, 77, 75);
     border-radius: 15px;
     border-color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: left;
+   
 }
 head{
     align-items: center;
@@ -24,15 +25,15 @@ head{
     padding: 3%;
 }
 
-.classONE{
+/* .classONE{
     align-items: center;
     align-content: center;
     text-align: center;
-    color: rgb(208, 219, 228);
-}
+    color: rgb(88, 19, 19);
+} */
 .buttonElements{
     text-align: center;
+    
 }
 
-.rockImage{
-    border-radius: 20px};
+
