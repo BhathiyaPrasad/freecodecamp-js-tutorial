@@ -9,7 +9,7 @@ button{
     width: 100px;
     height: 35px;
     color:  rgb(208, 219, 228);
-    background-color: rgb(58, 46, 32);
+    background-color: rgb(76, 77, 75);
     border-radius: 15px;
     border-color: rgb(255, 255, 255);
     text-align: center;
@@ -30,3 +30,6 @@ head{
 .buttonElements{
     text-align: center;
 }
+
+.rockImage{
+    border-radius: 20px};
