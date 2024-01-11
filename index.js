@@ -6,7 +6,7 @@
 // let myAge = 21
 // console.log(myAge)
 
-let myAge = 21;
-let humanDogRatio = 7
-myDogAge = myAge / humanDogRatio
-console.log(myDogAge)
+// let myAge = 21;
+// let humanDogRatio = 7
+// myDogAge = myAge / humanDogRatio
+// console.log(myDogAge)

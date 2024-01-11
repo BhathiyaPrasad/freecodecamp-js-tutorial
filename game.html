@@ -8,8 +8,8 @@
     <title>Rock Paper Scissor</title>
 </head>
 
-<body>
-    <h1 class="classONE">Rock Paper Scissor</h1>
+<body background="background.jpg">
+ <!-- //   <h1 class="classONE">PICK YOUR CHOICE</h1> -->
     <div class="buttonElements">
         <button onclick="
             const randomNumber = Math.random();
@@ -32,8 +32,12 @@
             }
             console.log(result);
             alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );
-        ">
-            Rock
+        " style="background-image: url(rock.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;" > 
+       <!-- <img src="rock.jpg"  width="100px" height="35px" class="rockImage">  -->
+            
         </button>
        
         <button onclick="
@@ -58,7 +62,10 @@
             }
             console.log(result1);
             alert('You Picked Paper '+' Computer Picked'+ ' ' + computerMove1 +' '+ result1 );
-        ">Paper</button>
+        " style="background-image: url(paper.jpg);
+         background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;"></button>
         
         <button onclick="
             const randomNumber2 = Math.random();
@@ -81,7 +88,10 @@
             }
             console.log(result2);
             alert('You Picked Scissor'+' Computer Picked'+ ' ' + computerMove2 +' '+ result2 );
-        ">Scissor</button>
+        " style="background-image: url(scissors.jpg);
+         background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;"></button>
     </div>
 </body>
 
