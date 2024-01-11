@@ -9,7 +9,7 @@
 </head>
 
 <body background="background.jpg">
- <!-- //   <h1 class="classONE">PICK YOUR CHOICE</h1> -->
+    
     <div class="buttonElements">
         <button onclick="
             const randomNumber = Math.random();
@@ -31,15 +31,13 @@
                 result = 'Pass';
             }
             console.log(result);
-            alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );
-        " style="background-image: url(rock.jpg);
+            alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );"
+            style="background-image: url(rock.jpg);
             background-position: center;
             background-size: cover;
-            background-repeat: no-repeat;" > 
-       <!-- <img src="rock.jpg"  width="100px" height="35px" class="rockImage">  -->
-            
+            background-repeat: no-repeat;">
         </button>
-       
+
         <button onclick="
             const randomNumber1 = Math.random();
             let computerMove1 = '';
@@ -61,12 +59,13 @@
                 result1 = 'Failed';
             }
             console.log(result1);
-            alert('You Picked Paper '+' Computer Picked'+ ' ' + computerMove1 +' '+ result1 );
-        " style="background-image: url(paper.jpg);
-         background-position: center;
+            alert('You Picked Paper '+' Computer Picked'+ ' ' + computerMove1 +' '+ result1 );" 
+            style="background-image: url(paper.jpg);
+            background-position: center;
             background-size: cover;
-            background-repeat: no-repeat;"></button>
-        
+            background-repeat: no-repeat;">
+        </button>
+
         <button onclick="
             const randomNumber2 = Math.random();
             let computerMove2 = '';
@@ -87,11 +86,12 @@
                 result2 = 'Tie';
             }
             console.log(result2);
-            alert('You Picked Scissor'+' Computer Picked'+ ' ' + computerMove2 +' '+ result2 );
-        " style="background-image: url(scissors.jpg);
-         background-position: center;
+            alert('You Picked Scissor'+' Computer Picked'+ ' ' + computerMove2 +' '+ result2 );" 
+            style="background-image: url(scissors.jpg);
+            background-position: center;
             background-size: cover;
-            background-repeat: no-repeat;"></button>
+            background-repeat: no-repeat;">
+        </button>
     </div>
 </body>
 
