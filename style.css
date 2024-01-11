@@ -1,28 +1,16 @@
-
-
-
-body{
-    background-repeat:no-repeat;
-    background-size:cover;
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-button{
-    width: 100px;
-    height: 110px;
-    color:  rgb(208, 219, 228);
-    background-color: rgb(76, 77, 75);
-    border-radius: 20px;
-    border-color: rgb(26, 19, 19);
-    text-align: left;
-   
-}
-head{
+
+head {
     align-items: center;
     align-self: center;
     color: rgb(255, 255, 255);
-    padding: 4%;
+    padding: 50%;
 }
 
 /* .classONE{
@@ -31,9 +19,16 @@ head{
     text-align: center;
     color: rgb(88, 19, 19);
 } */
-.buttonElements{
-    text-align: center;
-    
+.buttonElements button {
+
+    margin: 80px;
+    width: 100px;
+    height: 110px;
+    color: rgb(208, 219, 228);
+    background-color: rgb(76, 77, 75);
+    border-radius: 20px;
+    border-color: rgb(26, 19, 19);
+    display: flex;
+
+
 }
-
-
