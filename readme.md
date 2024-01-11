@@ -31,4 +31,5 @@ Then Instead of using Console.log to get much more user experience the output me
 
                             alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );
 Added Images using  
+
                              style="background-image: url(ImageName.jpg);   
