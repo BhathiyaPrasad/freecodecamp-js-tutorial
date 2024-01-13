@@ -33,4 +33,4 @@ Then Instead of using Console.log to get much more user experience the output me
 Added Images using  
 
                              style="background-image: url(ImageName.jpg);   
-Then added
+Then added relative image for the bettter 
