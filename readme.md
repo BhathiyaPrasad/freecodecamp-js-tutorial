@@ -30,7 +30,7 @@ Created following variables in empthy to stores data from Algorhythm
 Then Instead of using Console.log to get much more user experience the output method change to Alert Window to Display User's and Computer's Input and The final Results
 
                             alert('You Picked Rock'+' Computer Picked'+ ' ' + computerMove +' '+ result );
-Added Images using  
+Added Images using,  
 
                              style="background-image: url(ImageName.jpg);   
-Then added relative image for the bettter User Experience
+Then added relative image for the bettter User Experience...
