@@ -1,4 +1,4 @@
-utorial for javascript conducted via freecodecamp
+Tutorial for javascript conducted via freecodecamp
 
 Here Is the Link "https://youtu.be/jS4aFq5-91M?si=tfNWE87uOtxXWGeb"
 
