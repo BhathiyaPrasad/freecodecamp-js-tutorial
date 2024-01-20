@@ -1,4 +1,4 @@
-Tutorial for Javascript Beginner Course conducted via freecodecamp
+Tutorial for Javascript Beginner Course
 
 Here Is the Link "https://youtu.be/jS4aFq5-91M?si=tfNWE87uOtxXWGeb"
 
