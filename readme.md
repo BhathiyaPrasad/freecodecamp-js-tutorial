@@ -2,7 +2,7 @@ Tutorial for Javascript Beginner Course
 
 Here Is the Link "https://youtu.be/jS4aFq5-91M?si=tfNWE87uOtxXWGeb"
 
-Rock Paper Scissor game
+Rock Paper Scissor Game
  
  User inputs Rock , Paper ,  Scissor
  Processing - Computer cheking inputs and compare with the comouter's algorithm
