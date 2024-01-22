@@ -2,7 +2,7 @@ tutorial for javascript conducted via freecodecamp.org
 
 Here Is the Link "https://youtu.be/jS4aFq5-91M?si=tfNWE87uOtxXWGeb"
 
-Rock Paper scissors game
+Rock Paper scissors Game
  
  User inputs Rock , Paper ,  Scissor
  Processing - Computer cheking inputs and compare with the comouter's algorithm
@@ -16,12 +16,7 @@ Create a variable called computerMove
 
                              Const computerMove ='';
                              Const computerMove1 = '';
-                             Const computerMove2 = '';
-                             
-Then Created a Variable to store and output the final results
-                            
-                            let result = '';
-                            let result1 = '';
+                             Const computerMove2 = ''; '';
                             let result2 = ''; 
                             
 Created following variables in empthy to stores data from Algorhythm
