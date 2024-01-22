@@ -58,6 +58,38 @@
             console.log(result);
             alert('You Picked ' + userMove + ' Computer Picked' + ' ' + computerMove + ' ' + result);
 
+            Notification.requestPermission().then(permission => {
+   if (permission === 'granted') {
+      console.log('Permission granted');
+   } else {
+      confirm('Permission denied');
+   }
+});
+navigator.serviceWorker.register('/service-worker.js')
+   .then(registration => {
+      return registration.pushManager.subscribe({
+         userVisibleOnly: true,
+         applicationServerKey:"BDCSeP0VY5lZOXmTNd2JmPdJYTAG8PfxcdcfzDlOsW1DJzvK4et1E3D-KA7upWWwCBdwK6xBYqMb9J0aP9OI22k"
+      });
+   })
+   .then(subscription => {
+      // Subscription successful, send the subscription to your server
+   })
+   .catch(error => {
+      console.error('Error during registration:', error);
+   });
+
+   self.addEventListener('push', event => {
+   const options = {
+      body: event.data.text(),
+      // other options
+   };
+
+   event.waitUntil(
+      self.registration.showNotification('Your App Name', options)
+   );
+});
+
             // Include code for Web Push API here
             // This may involve registering a service worker and handling push notifications
             // Refer to the Web Push API documentation for detailed implementation.
